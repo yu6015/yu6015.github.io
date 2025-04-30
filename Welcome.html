@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2024年新年祝福</title>
+    <style>
+        body {
+            background-color: #FFD700;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #008B8B;
+            font-size: 60px;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        p {
+            color: #008B8B;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .fireworks {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            pointer-events: none;
+            background: url(https://i.imgur.com/FK6gJ7R.png);
+            animation: fireworks 10s ease-in-out infinite;
+        }
+
+        @keyframes fireworks {
+            0% {
+                transform: scale(1);
+                opacity: 0;
+            }
+
+            5% {
+                transform: scale(3);
+                opacity: 1;
+            }
+
+            80% {
+                transform: scale(15);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fireworks"></div>
+    <h1>Happy New Year 2024!</h1>
+    <p>祝您新年快乐，万事如意，平安健康！</p>
+</body>
+
+</html>
